@@ -13,6 +13,7 @@
 
 [data-id="title"] {
   margin: 0 0.5in 0.08in -0.5in;
+  /*text-transform: lowercase;*/
 }
 
 .main-block {
@@ -22,7 +23,8 @@
 
 /* Customize some of the sizing variables */
   :root {
-    --sidebar-width: 12rem !important; /* Shrink sidebar width  */
+    /*--sidebar-width: 12rem !important; /* Shrink sidebar width  */
+    --sidebar-width: 12.5rem !important; /* Shrink sidebar width  */
       --sidebar-horizontal-padding: 0.02in; /* Reduce sidebar padding */
   }
 
@@ -60,3 +62,23 @@
   margin-block-start: 0.15em;
   margin-block-end: 0.15em;
 }
+
+ /* unvisited link */
+a:link {
+  color: #000;
+}
+
+/* visited link */
+a:visited {
+  color: #000;
+}
+
+/* mouse over link */
+a:hover {
+  color: #000;
+}
+
+/* selected link */
+a:active {
+  color: #000;
+} 
