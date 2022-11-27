@@ -49,7 +49,8 @@ strip_links_from_cols <- function(data, cols_to_strip){
 print_section <- function(position_data, section_id){
   position_data %>% 
     filter(section == section_id) %>% 
-    arrange(desc(end)) %>% 
+    arrange(desc(start)) %>% 
+    # arrange(desc(end)) %>% 
     mutate(id = 1:n()) %>% 
     pivot_longer(
       starts_with('description'),
@@ -94,7 +95,10 @@ print_section <- function(position_data, section_id){
 
 # Construct a bar chart of skills
 build_skill_bars <- function(skills, out_of = 5){
-  bar_color <- "#969696"
+  bar_color <- "#592727"
+  # bar_color <- "#260101"
+  # bar_color <- "#8C3027"
+  # bar_color <- "#969696"
   bar_background <- "#d9d9d9"
   skills %>% 
     mutate(width_percent = round(100*level/out_of)) %>% 
@@ -113,4 +117,113 @@ print_text_block <- function(text_blocks, label){
   filter(text_blocks, loc == label)$text %>%
     sanitize_links() %>%
     cat()
+}
+
+
+
+# teste Publicacoes
+
+print_section_publi <- function(publications_data, section_id){
+  publications_data %>% 
+    filter(section == section_id) %>%
+    arrange(desc(year)) %>% 
+    mutate(id = 1:n()) %>% 
+    mutate(
+      timeline = glue('{year}')) %>%  
+    # strip_links_from_cols(c('title')) %>% 
+    mutate_all(~ifelse(is.na(.), 'N/A', .)) %>% 
+    glue_data(
+      "### {title}",
+      "\n\n",
+      "{authors}",
+      "\n\n",
+      "N/A",
+      "\n\n",
+      "{timeline}",
+      "\n\n",
+      "*{journal}* {volume}",
+      "\n\n\n",
+      # "{description_bullets}",
+      # "\n\n\n",
+    )
+}
+
+
+# teste cursos
+
+print_cursos <- function(courses_data){
+  courses_data %>% 
+    # filter(section == section_id) %>% 
+    arrange(desc(year)) %>% 
+    mutate(id = 1:n()) %>% 
+    mutate(
+      timeline = glue('{year}')) %>%  
+    # strip_links_from_cols(c('title')) %>% 
+    mutate_all(~ifelse(is.na(.), 'N/A', .)) %>% 
+    glue_data(
+      "### {title}",
+      "\n\n",
+      "{loc}. {hours}.",
+      "\n\n",
+      "{city}",
+      "\n\n",
+      "{timeline}",
+      "\n\n\n",
+      # "{description_bullets}",
+      # "\n\n\n",
+    )
+}
+
+# teste cursos
+
+print_cursos <- function(courses_data){
+  courses_data %>% 
+    # filter(section == section_id) %>% 
+    arrange(desc(year)) %>% 
+    mutate(id = 1:n()) %>% 
+    mutate(
+      timeline = glue('{year}')) %>%  
+    # strip_links_from_cols(c('title')) %>% 
+    mutate_all(~ifelse(is.na(.), 'N/A', .)) %>% 
+    glue_data(
+      "### {title}",
+      "\n\n",
+      "{loc}. {hours}.",
+      "\n\n",
+      "{city}",
+      "\n\n",
+      "{timeline}",
+      "\n\n\n",
+      # "{description_bullets}",
+      # "\n\n\n",
+    )
+}
+
+
+
+# teste eventos
+
+print_section_events <- function(events_data, section_id){
+  events_data %>% 
+    filter(section == section_id) %>% 
+    arrange(desc(year)) %>% 
+    mutate(id = 1:n()) %>% 
+    mutate(
+      timeline = glue('{year}')) %>%  
+    # strip_links_from_cols(c('title')) %>% 
+    mutate_all(~ifelse(is.na(.), 'N/A', .)) %>% 
+    glue_data(
+      "### {title}",
+      "\n\n",
+      "{authors}",
+      "\n\n",
+      "{loc}",
+      "\n\n",
+      "{timeline}",
+      # "\n\n",
+      # "*{journal}* {volume}",
+      "\n\n\n",
+      # "{description_bullets}",
+      # "\n\n\n",
+    )
 }
