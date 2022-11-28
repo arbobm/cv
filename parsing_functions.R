@@ -131,7 +131,8 @@ print_section_publi <- function(publications_data, section_id){
     mutate(
       timeline = glue('{year}')) %>%  
     # strip_links_from_cols(c('title')) %>% 
-    mutate_all(~ifelse(is.na(.), 'N/A', .)) %>% 
+    mutate_all(~ifelse(is.na(.), '', .)) %>% 
+    # mutate_all(~ifelse(is.na(.), 'N/A', .)) %>% 
     glue_data(
       "### {title}",
       "\n\n",
