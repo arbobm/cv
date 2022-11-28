@@ -40,3 +40,8 @@ vignettes/*.pdf
 
 # txts
 *.txt
+
+# pasta lixo e pasta antigos
+/lixo/
+/antigos/
+
