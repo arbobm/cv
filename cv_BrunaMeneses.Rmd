@@ -104,6 +104,12 @@ build_skill_bars(skills)
 
 <!-- Full experience with next generation sequencing data analysis. -->
 
+Grants {#grants}
+--------------------------------------------------------------------------------
+
+- [Curso-R](https://curso-r.com/) - Diversity scholarship (jul & nov, 2022)
+
+- [AI Inclusive & Dataquest.io](https://www.ai-inclusive.org/) - Women and other under-represented genders in data science scholarship (jan-jun 2021)
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
