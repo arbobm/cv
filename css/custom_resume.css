@@ -75,10 +75,12 @@ a:visited {
 
 /* mouse over link */
 a:hover {
+  background-color: #D9D3C7;
   color: #000;
 }
 
 /* selected link */
 a:active {
+  background-color: #D9D3C7;
   color: #000;
 } 
