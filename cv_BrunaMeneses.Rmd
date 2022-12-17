@@ -97,8 +97,20 @@ Skills {#skills}
 --------------------------------------------------------------------------------
 
 ```{r}
-build_skill_bars(skills)
+# build_skill_bars(skills)
 ```
+
+- ArcGIS
+- QGIS
+- R
+- Tidyverse
+- RMarkdown
+- html/css
+- shiny app
+- LaTeX
+- Inkscape
+- GIMP
+- Microsoft Office
 
 <!-- Experienced in statistical analysis, statistical learning models, and optimization methods. -->
 
