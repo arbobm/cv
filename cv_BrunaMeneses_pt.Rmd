@@ -9,7 +9,7 @@ output:
       - css/styles.css
       - resume
     # set it to true for a self-contained HTML page but it'll take longer to render
-    self_contained: true
+    embed-resources: standalone
 # uncomment this line to produce HTML and PDF in RStudio:
 knit: pagedown::chrome_print
 ---
@@ -119,7 +119,7 @@ Habilidades {#skills}
 Bolsas {#grants}
 --------------------------------------------------------------------------------
 
-- [Curso-R](https://curso-r.com/) - Diversity scholarship (jul & nov, 2022)
+- [Curso-R](https://curso-r.com/) - Bolsa de diversidade de gênero (jul & nov, 2022)
 
 - [AI Inclusive & Dataquest.io](https://www.ai-inclusive.org/) - Women and other under-represented genders in data science scholarship (jan-jun 2021)
 
@@ -129,7 +129,7 @@ Disclaimer {#disclaimer}
 Este currículo foi feito utilizando o pacote do R [**pagedown**](https://github.com/rstudio/pagedown).
 <!-- This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown). -->
 
-Última atualização em `r format(Sys.Date(), "%d-%m-%Y")`.
+Última atualização em <br> `r format(Sys.Date(), "%d-%m-%Y")`.
 <!-- Last updated on `r Sys.Date()`. -->
 
 
