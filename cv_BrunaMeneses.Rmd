@@ -256,6 +256,18 @@ events %>%
 
 ```
 
+Teaching experience as a instructor {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+### Spatial Prioritization Course for Elaboration of Strategic Areas of Action Plans
+
+worked as a teacher and in the organization of teaching material. 17h.
+
+Online.
+
+2023
+
+National Center for Research and Conservation of Reptiles and Amphibians (RAN/ICMBio).
 
 Teaching experience as a monitor {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
@@ -275,7 +287,7 @@ Instituto de Biociências/UFRGS.
 ### Disciplina ECP 0098 B - Special Topics Applied to Ecology: Foundations in Landscape Ecology.
 <!-- ### Disciplina ECP 0098 B - Tópicos Especiais Aplicados à Ecologia: Fundamentos em Ecologia de Paisagem. -->
 
-Acting as a monitor in the discipline offered in the Graduate Program in Ecology at UFRGS, taught by prof. Milton Cezar Ribeiro, from December 10 to 14, 2012. 30h.
+Worked as a monitor in the discipline offered in the Graduate Program in Ecology at UFRGS, taught by prof. Milton Cezar Ribeiro, from December 10 to 14, 2012. 30h.
 <!-- Atuação como monitora na disciplina oferecida no Programa de PósGraduação em Ecologia da UFRGS, ministrada pelo prof. Milton Cezar Ribeiro, no período de 10 a 14 de dezembro de 2012. Carga horária: 30 horas/aula. -->
 
 Porto Alegre, Brazil.
