@@ -228,3 +228,29 @@ print_section_events <- function(events_data, section_id){
       # "\n\n\n",
     )
 }
+
+print_section_events_part <- function(events_data, section_id){
+  events_data %>% 
+    filter(section == section_id) %>% 
+    arrange(desc(year)) %>% 
+    mutate(id = 1:n()) %>% 
+    mutate(
+      timeline = glue('{year}')) %>%  
+    # strip_links_from_cols(c('title')) %>% 
+    mutate_all(~ifelse(is.na(.), 'N/A', .)) %>% 
+    glue_data(
+      "### {title}",
+      "\n\n",
+      "{hours}",
+      # "{authors}",
+      "\n\n",
+      "{loc}",
+      "\n\n",
+      "{timeline}",
+      # "\n\n",
+      # "*{journal}* {volume}",
+      "\n\n\n",
+      # "{description_bullets}",
+      # "\n\n\n",
+    )
+}

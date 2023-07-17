@@ -245,17 +245,6 @@ comp_education %>%
 
 ```
 
-
-Event organization {data-icon=calendar-o}
---------------------------------------------------------------------------------
-
-```{r}
-
-events %>% 
-  print_section_events('organization')
-
-```
-
 Teaching experience as a instructor {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
@@ -305,3 +294,12 @@ Instituto de Biociências/UFRGS.
 <!--   print_section_publi('abstract') -->
 <!-- ``` -->
 
+Participation in events {data-icon=calendar-o}
+--------------------------------------------------------------------------------
+
+```{r}
+
+events %>% 
+  print_section_events_part('participation')
+
+```
