@@ -259,7 +259,7 @@ events %>%
 Teaching experience as a instructor {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
-### Spatial Prioritization Course for Elaboration of Strategic Areas of Action Plans
+### Spatial Prioritization for Elaboration of Strategic Areas of Action Plans
 
 worked as a teacher and in the organization of teaching material. 17h.
 
