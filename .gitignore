@@ -49,5 +49,11 @@ vignettes/*.pdf
 assinatura.jpg
 
 # portuguese versions
-**pt**
+cv_BrunaMeneses_pt.html
+cv_BrunaMeneses_pt.pdf
+cv_BrunaMeneses_pt.Rmd
+cv_BrunaMeneses_pt_sfoto.html
+cv_BrunaMeneses_pt_sfoto.pdf
+cv_BrunaMeneses_pt_sfoto.Rmd
+cv_BrunaMeneses_pt_sfoto_compressed.pdf
 
