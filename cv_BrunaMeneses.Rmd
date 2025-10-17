@@ -172,49 +172,6 @@ position_data %>% print_section('professional')
 ```
 
 
-<!-- Teaching Experience {data-icon=chalkboard-teacher} -->
-<!-- -------------------------------------------------------------------------------- -->
-
-<!-- ### Introduction to R Language for Beginners. -->
-
-<!-- Instructor of R and Data Mining Training Courses at SupStat Inc. -->
-
-<!-- Beijing, China -->
-
-<!-- 2014 -->
-
-<!-- ### Computational Biology and Bioinformatics. -->
-
-<!-- Teaching assistant of GBS CB2-201 courses at UAB -->
-
-<!-- AL, USA -->
-
-<!-- 2016 - 2017 -->
-
-
-<!-- Selected Publications and Posters {data-icon=file} -->
-<!-- -------------------------------------------------------------------------------- -->
-
-<!-- ### Genetic and epigenetic signals are found predictive to the distribution of intra-individual divergence of alternative splicing. -->
-
-<!-- Poster for 2013 International Conference of Genomics -->
-
-<!-- Qingdao, China -->
-
-<!-- 2014 -->
-
-<!-- **Yu L**, Chen B, Zhang Z. -->
-
-<!-- ### ESCRT-0 complex modulates Rbf mutant cell survival by regulating Rhomboid endosomal trafficking and EGFR signaling. -->
-
-<!-- J Cell Sci. 2016 May 15;129(10):2075-84. -->
-
-<!-- N/A -->
-
-<!-- 2016 -->
-
-<!-- Sheng Z, **Yu L**, Zhang T, Pei X, Li X, Zhang Z and Du W. -->
-
 Peer-reviewed articles {data-icon=file}
 --------------------------------------------------------------------------------
 
@@ -225,24 +182,12 @@ publications %>%
 
 ```
 
-
-Technical reports {data-icon=book}
+Presentations and Posters {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
 ```{r}
-publications %>% 
-  print_section_publi('tecnicos')
-```
-
-
-Professional development {data-icon=pencil}
---------------------------------------------------------------------------------
-
-```{r}
-
-comp_education %>% 
-  print_cursos()
-
+publications %>%
+  print_section_publi('abstract')
 ```
 
 Participation in events {data-icon=calendar-o}
@@ -254,6 +199,17 @@ events %>%
   print_section_events_part('participation')
 
 ```
+
+Professional development {data-icon=pencil}
+--------------------------------------------------------------------------------
+
+```{r}
+
+comp_education %>% 
+  print_cursos()
+
+```
+
 
 Teaching experience as a instructor {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
@@ -296,12 +252,14 @@ Porto Alegre, Brazil.
 Instituto de Biociências/UFRGS.
 
 
-Resumos em congressos {data-icon=chalkboard-teacher}
+Technical reports {data-icon=book}
 --------------------------------------------------------------------------------
 
 ```{r}
-publications %>%
-  print_section_publi('abstract')
+publications %>% 
+  print_section_publi('tecnicos')
 ```
+
+
 
 
