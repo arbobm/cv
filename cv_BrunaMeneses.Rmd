@@ -144,22 +144,6 @@ Bruna Arbo Meneses {#title}
 print_text_block(text_blocks, 'intro')
 ```
 
-Education {data-icon=graduation-cap}
---------------------------------------------------------------------------------
-
-```{r}
-position_data %>% print_section('education')
-```
-
-
-<!-- Research Experience {data-icon=laptop} -->
-<!-- -------------------------------------------------------------------------------- -->
-
-<!-- ```{r} -->
-
-<!-- position_data %>% print_section('research') -->
-<!-- ``` -->
-
 
 Professional Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
@@ -168,6 +152,14 @@ Professional Experience {data-icon=suitcase}
 ```{r}
 
 position_data %>% print_section('professional')
+```
+
+
+Education {data-icon=graduation-cap}
+--------------------------------------------------------------------------------
+
+```{r}
+position_data %>% print_section('education')
 ```
 
 
@@ -181,6 +173,7 @@ publications %>%
 
 ```
 
+
 Presentations and Posters {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
@@ -188,6 +181,7 @@ Presentations and Posters {data-icon=chalkboard-teacher}
 publications %>%
   print_section_publi('abstract')
 ```
+
 
 Participation in events {data-icon=calendar-o}
 --------------------------------------------------------------------------------
@@ -198,6 +192,7 @@ events %>%
   print_section_events_part('participation')
 
 ```
+
 
 Professional development {data-icon=pencil}
 --------------------------------------------------------------------------------
@@ -253,6 +248,7 @@ Instituto de Biociências/UFRGS.
 
 Technical reports {data-icon=book}
 --------------------------------------------------------------------------------
+
 
 ```{r}
 publications %>% 
