@@ -245,6 +245,16 @@ comp_education %>%
 
 ```
 
+Participation in events {data-icon=calendar-o}
+--------------------------------------------------------------------------------
+
+```{r}
+
+events %>% 
+  print_section_events_part('participation')
+
+```
+
 Teaching experience as a instructor {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
@@ -286,20 +296,12 @@ Porto Alegre, Brazil.
 Instituto de Biociências/UFRGS.
 
 
-<!-- Resumos em congressos {data-icon=chalkboard-teacher} -->
-<!-- -------------------------------------------------------------------------------- -->
-
-<!-- ```{r} -->
-<!-- publications %>%  -->
-<!--   print_section_publi('abstract') -->
-<!-- ``` -->
-
-Participation in events {data-icon=calendar-o}
+Resumos em congressos {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
 ```{r}
-
-events %>% 
-  print_section_events_part('participation')
-
+publications %>%
+  print_section_publi('abstract')
 ```
+
+
