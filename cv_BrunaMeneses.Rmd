@@ -100,9 +100,9 @@ Skills {#skills}
 # build_skill_bars(skills)
 ```
 
+- R
 - ArcGIS
 - QGIS
-- R
 - Tidyverse
 - RMarkdown
 - html/css
@@ -110,7 +110,6 @@ Skills {#skills}
 - LaTeX
 - Inkscape
 - GIMP
-- Microsoft Office
 
 <!-- Experienced in statistical analysis, statistical learning models, and optimization methods. -->
 
