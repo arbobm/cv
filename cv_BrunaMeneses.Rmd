@@ -78,7 +78,8 @@ Aside
 ================================================================================
 
 
-![Bruna Arbo Meneses](photo/DSC05985_1.jpg){width=80%}
+<!-- ![Bruna Arbo Meneses](photo/DSC05985_1.jpg){width=80%} -->
+![Bruna Arbo Meneses](photo/54090052819_578ea40009_k_1.jpg){width=80%}
 
 
 Contact Info {#contact}
