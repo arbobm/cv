@@ -104,12 +104,11 @@ Skills {#skills}
 - ArcGIS
 - QGIS
 - Tidyverse
-- RMarkdown
+- Quarto
 - html/css
 - shiny app
 - LaTeX
-- Inkscape
-- GIMP
+
 
 <!-- Experienced in statistical analysis, statistical learning models, and optimization methods. -->
 
